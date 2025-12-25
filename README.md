@@ -52,4 +52,3 @@ pip install -r requirements.txt
 ExpoCheck is a security tool intended for **defensive use only**. Scan your own repositories to protect yourself. The authors are not responsible for misuse.
 
 ---
-*Built with logic & vibe by ExpoCheck Team.*
