@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExpoCheck Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Fira+Code&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>ExpoCheck</h1>
+        <p class="subtitle">Secure Git History Scanner for sensitive data.</p>
+
+        <div class="card">
+            <div class="input-group">
+                <input type="text" id="pathInput"
+                    placeholder="Enter absolute repository path (e.g. C:\Users\Dev\MyProject)">
+                <button id="scanBtn">START SCAN</button>
+            </div>
+
+            <div class="status-area">
+                <div id="statusText">Ready to scan.</div>
+                <div class="progress-bar-container" id="progressContainer">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="findingsList" class="findings-list">
+            <!-- Results will appear here -->
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
