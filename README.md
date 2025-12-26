@@ -26,8 +26,8 @@ ExpoCheck performs a **Deep Time Scan** on your local repository, checking every
 
 ```bash
 # Clone the repository
-git clone https://github.com/Smik022/ExpoCheck.git
-cd ExpoCheck
+git clone https://github.com/Smik022/EXPO_CHECKER.git
+cd EXPO_CHECKER
 
 # Install dependencies
 pip install -r requirements.txt
